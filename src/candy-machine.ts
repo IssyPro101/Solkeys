@@ -242,7 +242,7 @@ const getTokenWallet = async (
 
 export const mintOneToken = async (
   candyMachine: CandyMachine,
-  config: anchor.web3.PublicKey, // feels like this should be part of candyMachine?
+  config: anchor.web3.PublicKey,
   payer: anchor.web3.PublicKey,
   treasury: anchor.web3.PublicKey,
 ): Promise<string> => {
